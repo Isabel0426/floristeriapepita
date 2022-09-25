@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="./img/iconflor.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>PEPITA Y ASOCIADOS</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Arreglos Florales</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Adiciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contactenos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Cerrar sesion</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div class="contenedor" style=" position: relative;
+        display: inline-block;
+        text-align: center;">
+            <img src="./img/MaxPixel.net-Rose-Bouquet-Of-Roses-Color-Colorful-Bouquet-6057809.jpg"  class="img-fluid w-100">
+            <div class="centrado">
+                <br> <h3 style="
+                position: absolute;
+                top: 100px;
+                left: 450px;
+                color: rgb(251, 237, 237);">Floristeria Medellín</h3>
+                <p style="
+                    position: absolute;
+                    top: 150px;
+                    left: 300px;
+                    color: aliceblue;"> Venta de Arreglos florales en Medellín y el área Metropolitana
+                    las 24 horas
+                </p></div>
+            </div>
+            <div id="lista">
+                <div>
+                    <ul id="listproducts"></ul><!--para llamar a la lista-->
+                </div>
+            </div> <!--fin lista-->
+            <!-- cards-->
+            <section style="background-image:url('https://media.istockphoto.com/photos/astronaut-lying-in-the-meadow-picture-id1304263738?b=1&k=20&m=1304263738&s=170667a&w=0&h=LZ99BV0qvF5GsYw3mqyJcN5lNZPvJ5jaKcDs9dMvzmg=') ;">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="./img/variedad.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Variedades</h5>
+                      <p class="card-text">Soreprende y felicita mosntrando todo tu aprecio.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./img/boda.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Arreglos de boda</h5>
+                      <p class="card-text">Disfruta tus momentos mas especiales llenos de color.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./img/comunion.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Primera Comunion</h5>
+                      <p class="card-text">Rosas y dulces llenas de alegria.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./img/cumpleaños.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cumpleaños</h5>
+                      <p class="card-text">Regala frescura y color.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <br>
+         </section>
+        
+        <!--carrusel-->
+        <section style="background-image:url('https://images.pexels.com/photos/409696/pexels-photo-409696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');">
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/tulipanes.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/rosas.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/orquidea.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/Lilis.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            
+        </section>
+    </main>
+    <footer>
+        
+        <div class="contenedor" style=" position: relative;
+        display: inline-block;
+        text-align: center;">
+        <img src="./img/banner-eventos.png"  class="img-fluid w-100" >
+        <div class="centrado">
+            <br> <h3 style="
+            position: absolute;
+            top: 100px;
+            left: 400px;
+            color: rgb(251, 237, 239);"> Eventos y Decoracion</h3>
+            <p style="
+                position: absolute;
+                top: 150px;
+                left: 10px;
+                color: rgb(76, 100, 122);"> Comparte los momentos mas especiales y memorables a nuestro lado, Planeacion y Decoracion de Matrimonios, 
+                Primeras comuniones, Cimpleaños y eventos
+            </p></div>
+    </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="js/lista.js"></script>
+</body>
+</html>

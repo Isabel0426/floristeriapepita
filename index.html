@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="./img/iconflor.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Login</title>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Arreglos Florales</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Adiciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contactenos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <br>
+            <h1 style="text-align: center; color:rgba(136, 47, 199, 0.67)"> Ingresa tus datos</h1>
+        <div class="container my-5">
+            <dov class="row justify-content-center">
+                <div class="col-5">
+    
+                    <form  id="form" action="" class="formulario">
+    
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1"><i class="bi bi-envelope"></i></span>
+                            <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1" id="usuario" for="usuario">
+                        </div>
+                        
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1"><i class="bi bi-key-fill"></i></span>
+                            <input id="contraseña" type="Password" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1" for="contraseña">
+                        </div>
+    
+                        <button id="boton_login" type="submit" class="btn btn-secondary w-100" value="Ingresar">Ingresar</button>
+                  
+                    </form>
+    
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="./List.js"></script>
+</body>
+</html>
+<!-- La empresa flores pepita necesita desarrollar una página web la cual contenga dos páginas, una página será el login(primera pagina) la cual debe de validar si el usuario y la contraseña existe,
+ la pagina debe de validar si el usuario existe en la siguiente lista de objetos,
+
+[
+{
+"user": "Pikachu",
+"password":"pikachu1234"
+},
+{
+"user": "Bulbasaur",
+"password":"bulbasaur1234"
+}
+]
+
+Si el usuario y la contraseña ingresados se encuentra en la lista lo debe de redirigir al home(segunda pagina), el home debe de tener un formato de html5 (libre de diseño, se puede usar bootstrap) con nav y un section el cual debe de contener una lista de productos ofrecidos por la empresa,la lista de productos esta en el siguiente array.
+
+
+const products = ["Rosas","Tulipanes","Claveles","Gerbera","Orquideas","Lilis","Alcatraces"]
+
+
+Consideraciones:
+
+1. El diseño es libre se puede usar boostrap.
+2. La lista de productos es libre, puede usar imágenes  (sea creativo).
+3. Todo debe de ser dinámico , si el profesor agrega usuarios nuevos al array de objetos o al array de productos se debería de ver reflejado en la funcionalidad.
+4. Se debe de responder un correo con los datos de los estudiantes y el link de github donde se encuentra el repositorio del codigo, se pueden hacer en equipos máximos de a 3.
+5. Si se observa en los parciales códigos muy avanzados, se programara sustentación del parcial, todo el equipo deberá de estar en capacidad de responder preguntas sobre el código. -->
